@@ -3,12 +3,7 @@ import numpy as np
 from matplotlib import _api
 from matplotlib.artist import Artist
 from matplotlib.axes import Axes
-from matplotlib.offsetbox import (
-    DrawingArea,
-    HPacker,
-    TextArea,
-    VPacker,
-)
+from matplotlib.offsetbox import DrawingArea, HPacker, TextArea, VPacker
 from matplotlib.text import Text
 
 
