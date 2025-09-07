@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "matplotlib-matrix-legend"
-version = "0.0.2"
+version = "0.0.3"
 authors = [
   { name="Igor Vaiman", email="gosha.vaiman@gmail.com" },
 ]
@@ -23,10 +23,10 @@ Homepage = "https://github.com/nj-vs-vh/matplotlib-matrix-legend"
 Issues = "https://github.com/nj-vs-vh/matplotlib-matrix-legend/issues"
 
 [tool.hatch.build.targets.sdist]
-include = ["matrix_legend"]
+include = ["matrix_legend.py"]
 
 [tool.hatch.build.targets.wheel]
-include = ["matrix_legend"]
+include = ["matrix_legend.py"]
 
 [tool.ruff]
 line-length = 120
