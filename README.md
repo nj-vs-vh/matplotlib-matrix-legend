@@ -25,7 +25,11 @@ the styling, layout, custom handles and other features should largely work as ex
 from matrix_legend import matrix_legend
 
 fig, ax = plt.subplots()
-# your plotting here
+
+for model_label in (...):
+    for case_label in (...):
+        # note special '|' delimiter between row and column sublabels (configurable)
+        ax.plot(..., label=f"{model_label} | {case_label}")
 
 # instead of ax.legend(...)
 # see https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.legend.html
