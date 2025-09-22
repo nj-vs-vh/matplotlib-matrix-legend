@@ -28,7 +28,7 @@ fig, ax = plt.subplots()
 
 for model_label in (...):
     for case_label in (...):
-        # note special '|' delimiter between row and column sublabels (configurable)
+        # note the special '|' delimiter between row and column sublabels (configurable)
         ax.plot(..., label=f"{model_label} | {case_label}")
 
 # instead of ax.legend(...)
